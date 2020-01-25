@@ -20,20 +20,43 @@ public class Rotation : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        float rotation = -speed * Input.GetAxis("Mouse X");
-        transform.Rotate(rotation, 0, 0);
+        if(Input.GetKey(KeyCode.LeftArrow)){
+            //float rotation = -speed * Input.GetAxis("Mouse X");
 
-        angleX = transform.eulerAngles.x;
+            float rotation = -speed *-0.4f;
+            transform.Rotate(rotation, 0, 0);
 
-        Vector3 rot = transform.eulerAngles;
-        Debug.Log(rot);
-        if (rot.x > max) {
-            rot.x = max;
-            transform.eulerAngles = rot;
+            angleX = transform.eulerAngles.x;
+
+            Vector3 rot = transform.eulerAngles;
+            Debug.Log(rot);
+            if (rot.x > max) {
+                rot.x = max;
+                transform.eulerAngles = rot;
+            }
+            if (rot.x < min) {
+                rot.x = min;
+                transform.eulerAngles = rot;
+            }
         }
-        if (rot.x < min) {
-            rot.x = min;
-            transform.eulerAngles = rot;
+        if(Input.GetKey(KeyCode.RightArrow)){
+            //float rotation = -speed * Input.GetAxis("Mouse X");
+
+            float rotation = -speed *0.4f;
+            transform.Rotate(rotation, 0, 0);
+
+            angleX = transform.eulerAngles.x;
+
+            Vector3 rot = transform.eulerAngles;
+            Debug.Log(rot);
+            if (rot.x > max) {
+                rot.x = max;
+                transform.eulerAngles = rot;
+            }
+            if (rot.x < min) {
+                rot.x = min;
+                transform.eulerAngles = rot;
+            }
         }
     }
 
