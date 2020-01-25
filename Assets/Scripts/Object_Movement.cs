@@ -15,5 +15,6 @@ public class Object_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(-vel,0,0);
     }
 }
