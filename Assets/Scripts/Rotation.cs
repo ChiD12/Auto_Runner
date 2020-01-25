@@ -6,8 +6,8 @@ using UnityEngine;
 public class Rotation : MonoBehaviour {
 
     public float speed = 1.0f;
-    public float max = 45f;
-    public float min = 315f;
+    public float max = -145f;
+    public float min = -45f;
 
     public float angleX;
 
@@ -20,14 +20,13 @@ public class Rotation : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        float rotation = speed * Input.GetAxis("Mouse X");
+        float rotation = -speed * Input.GetAxis("Mouse X");
         transform.Rotate(rotation, 0, 0);
 
         angleX = transform.eulerAngles.x;
 
         Vector3 rot = transform.eulerAngles;
         
-
         if (rot.x > max && rot.x < 180) {
             rot.x = max;
             transform.eulerAngles = rot;
