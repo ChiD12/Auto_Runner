@@ -20,7 +20,7 @@ public class Rotation : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow)){
+        if(Input.GetKey(KeyCode.RightArrow)){
             //float rotation = -speed * Input.GetAxis("Mouse X");
 
             float rotation = -speed *-0.4f;
@@ -39,7 +39,7 @@ public class Rotation : MonoBehaviour {
                 transform.eulerAngles = rot;
             }
         }
-        if(Input.GetKey(KeyCode.RightArrow)){
+        if(Input.GetKey(KeyCode.LeftArrow)){
             //float rotation = -speed * Input.GetAxis("Mouse X");
 
             float rotation = -speed *0.4f;

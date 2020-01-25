@@ -9,12 +9,12 @@ public class Object_Movement : MonoBehaviour
    
     void Start()
     {
-        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(-vel,0,0);
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(-vel, 0,0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(-vel,0,0);
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(-vel, -10 ,0);
     }
 }
