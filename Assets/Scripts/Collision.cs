@@ -33,5 +33,9 @@ public class Collision : MonoBehaviour
             Life.text = "Life: " + intLife; 
             Destroy(other.gameObject);
         }
+     // game over edit
+     if (intLife = 0) {
+            Life.text = "YOU HAVE PERISHED...";
+        }
      }
 }
