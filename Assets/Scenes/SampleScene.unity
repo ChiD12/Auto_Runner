@@ -882,6 +882,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.2271881, y: 0.669616, z: -0.22718816, w: 0.66961604}
   m_LocalPosition: {x: 118.5, y: 9.4, z: 0}
 =======
@@ -891,6 +892,10 @@ Transform:
 >>>>>>> parent of 1edd4bf... added water
 =======
 >>>>>>> parent of 1edd4bf... added water
+=======
+  m_LocalRotation: {x: 0.22719873, y: 0.66961235, z: -0.2271988, w: 0.6696124}
+  m_LocalPosition: {x: 118.1, y: 10.72, z: 0}
+>>>>>>> parent of e6d3ba3... added trigger
 =======
   m_LocalRotation: {x: 0.22719873, y: 0.66961235, z: -0.2271988, w: 0.6696124}
   m_LocalPosition: {x: 118.1, y: 10.72, z: 0}
@@ -1776,6 +1781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScrollX: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &2080794761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,6 +1811,8 @@ BoxCollider:
 >>>>>>> parent of 1edd4bf... added water
 =======
 >>>>>>> parent of 1edd4bf... added water
+=======
+>>>>>>> parent of e6d3ba3... added trigger
 =======
 >>>>>>> parent of e6d3ba3... added trigger
 --- !u!1001 &6767249041408369985
