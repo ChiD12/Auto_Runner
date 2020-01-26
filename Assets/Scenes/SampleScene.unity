@@ -886,6 +886,9 @@ Transform:
 =======
   m_LocalRotation: {x: 0.22719873, y: 0.66961235, z: -0.2271988, w: 0.6696124}
   m_LocalPosition: {x: 120.09, y: 10.72, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 1edd4bf... added water
+=======
 >>>>>>> parent of 1edd4bf... added water
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1747,6 +1750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScrollX: -0.15
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2080794756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 09b96511c9385e043a299ae6b9cd0229,
@@ -1791,6 +1795,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.98, y: 0.05, z: 1.98}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 1edd4bf... added water
 =======
 >>>>>>> parent of 1edd4bf... added water
 --- !u!1001 &6767249041408369985
