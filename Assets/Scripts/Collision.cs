@@ -28,10 +28,10 @@ public class Collision : MonoBehaviour
             score.text = "Score: " + intScore; 
             Destroy(other.gameObject);
         }
-        // if (other.tag == "Bad") {
-        //     intLife--;
-        //     //Life.text = "Life: " + intLife; 
-        //     Destroy(other.gameObject);
-        // }
+        if (other.tag == "Bad") {
+            intLife--;
+            Life.text = "Life: " + intLife; 
+            Destroy(other.gameObject);
+        }
      }
 }
